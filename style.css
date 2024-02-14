@@ -449,3 +449,9 @@ td, th {
 .VOV h2{
 	color: #fff;
 }
+
+
+.back {
+	position: absolute;
+	z-index: 2;
+}
