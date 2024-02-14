@@ -180,20 +180,23 @@ hr{
 }
 
 .school{
+	text-indent: 20px;
 	position: absolute;
 	width: 80%;
 	top: 20px;
 	left: 9%;
 	margin: 0;
 	padding: 0px 20px 0px 20px;
-	text-align: center;
-	justify-content: center;
+	text-align: justify;
+	justify-content: space-between;
 	z-index: 1;
 	background-filter: blur(10px);
 	background: rgba(255,255,255, 0.5);
 	font-size: 22px;
 }
-
+.school h2{
+	text-align: center;
+}
 .map1{
 	position: absolute;
 	z-index: 1;
@@ -309,18 +312,22 @@ hr{
 }
 
 .rpopaza{
+	text-indent: 20px;
 	position: absolute;
 	width: 80%;
 	top: 2350px;
 	left: 9%;
 	margin: 0;
 	padding: 0px 20px 0px 20px;
-	text-align: center;
+	text-align: justify;
 	justify-content: center;
 	z-index: 1;
 	background-filter: blur(10px);
 	background: rgba(255,255,255, 0.5);
 	font-size: 22px;
+}
+.rpopaza h2{
+	text-align: center;
 }
 
 .pred{
